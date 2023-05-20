@@ -15,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/nextjs/favicon.ico" type="image/x-icon" />
       <body className={inter.className}>{children}</body>
     </html>
   )
